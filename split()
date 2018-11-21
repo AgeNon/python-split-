@@ -1,0 +1,8 @@
+str = "Line1-abcdef \nLine2-abc \nLine4-abcd";
+print str.split( );
+print str.split(' ', 1 );
+
+#以上实例输出结果如下：
+['Line1-abcdef', 'Line2-abc', 'Line4-abcd']
+['Line1-abcdef', '\nLine2-abc \nLine4-abcd']
+#返回的是列表形式
